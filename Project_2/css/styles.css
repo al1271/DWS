@@ -8,28 +8,76 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    background-color: #99FF99;
-    
+    background-color: #fff;
 }
+}
+/* navigation bar */
+#nav {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+#nav1 {
+    display: inline;
+    background:white;
+    box-shadow:10px 10px 5px #009933;
+    width: 300px;
+    padding: 3px;
+    border: 3px white;
+    border-radius: 25px;
+    margin: 25px;
+}
+/* Text */
+#para, #para1 {
 
-p {
-
+	text-align: left;
 	font-weight: normal;
 	font-style: normal;
 	line-height: 90%;
 	text-indent: 50px;
 	font-size: 16px;
+    width: 600px;
+    padding: 3px;
+    border: 3px solid navy;
+    border-radius: 25px;
+    margin: 25px;
+    box-shadow:10px 10px 5px #009933;
+    
+}
+
+#para1,figcaption {
 	
+	box-shadow:10px 10px 5px #009933;
+    width: 300px;
+    padding: 3px;
+    border: 3px solid navy;
+    border-radius: 25px;
+    margin: 25px;
+    
+}
+
+figcaption {
+	
+	height:50px;
+    width: 150px;
+    padding: 3px;
+    border: 3px solid navy;
+    border-radius: 5px;
+    margin: 25px;
+    box-shadow:10px 10px 5px #009933;
 }
 
 /* headings */
 h1,h2,h3 {
-
+	
+	box-shadow:10px 10px 5px #009933;
+	border-radius: 5px;
+	text-align: center;
 	background-color: #004060; 
 	color: #ffffff; 
 	padding: 4px 8px; 
 	text-shadow: 2px 2px #ff0000;
-	
+	font-style: italic;
 }
 
 /* lists */
@@ -46,7 +94,6 @@ ol {
 	color: #004060;
 	font-size: 16px;
 	font-weight: bold;
-	
 }
 
 
@@ -76,38 +123,5 @@ a:hover {
 a:active {
 
     color: yellow;
-    
-}
-
-/* text */
-
-#para {	
-    width: 600px;
-    padding: 3px;
-    border: 3px solid navy;
-    border-radius: 25px;
-    margin: 25px;
-    box-shadow:10px 10px 5px #009933;
-    
-}
-#para1,figcaption {
-	
-	box-shadow:10px 10px 5px #009933;
-    width: 300px;
-    padding: 3px;
-    border: 3px solid navy;
-    border-radius: 25px;
-    margin: 25px;
-    
-}
-figcaption {
-	
-	height:50px;
-    width: 150px;
-    padding: 3px;
-    border: 3px solid navy;
-    border-radius: 5px;
-    margin: 25px;
-    box-shadow:10px 10px 5px #009933;
     
 }
