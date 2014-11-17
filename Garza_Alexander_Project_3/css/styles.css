@@ -23,18 +23,20 @@ body {
     padding: 2%;
     margin-left: auto;
     margin-right: auto;
-    width: 45%
+    width: 45%;
 }
 
 .nav1 {
-    display: inline;
+    display: inline-block;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b7deed), color-stop(50%, #71ceef), color-stop(51%, #21b4e2), color-stop(100%, #b7deed));
     box-shadow: 10px 10px 5px #009933;
-    width: 100%;
-    padding: 1%;
+    width: 15%;
+    padding: 2%;
     border-radius: 30px;
-    margin: 5%;
+    margin: 2%;
+    text-align: center;
 }
+
 
 /* Text */
 .para, .para1 {
