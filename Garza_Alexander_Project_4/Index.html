@@ -3,7 +3,6 @@
 <!-- header -->
 
 
-<header>
 <head class="header">
 	
     <meta charset="UTF-8"/>
@@ -14,24 +13,25 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
-</header>
 
 <!-- Start of Body -->
 <body>
 
+<nav id="top">
 <ul class="nav">
     <li class="nav1"><a href="Index.html">Home</a></li>
     <li class="nav1"><a href="news.asp">News</a></li>
     <li class="nav1"><a href="contact.asp">Contact</a></li>
     <li class="nav1"><a href="about.asp">About</a></li>
 </ul>
-    <div class="header">
+</nav>
+    <header>
              <img src="Images/Apple.png" alt="logo" />
-    </div> 
-<div class="left">
+    </header> 
+<section>
 
 
-    <h1 id="top"> The History of Apple </h1>
+    <h1> The History of Apple </h1>
 
     <!--unordered List-->
     <ul>
@@ -46,9 +46,11 @@
         software includes the OS X and iOS operating systems, the iTunes media browser, the Safari web browser, and the
         iLife and iWork creativity and productivity suites.
     </p>
+<aside>
     <blockquote class="para1" cite="http://en.wikipedia.org/wiki/Apple_Inc."> NOTE: The types of things Apple makes today
         are.
     </blockquote>
+</aside>
     <!--Unordered list-->
     <ol>
 
@@ -73,13 +75,62 @@
         computer. The Apple I went on sale in July 1976 and was market-priced at $666.66 ($2,763 in 2014 dollars,
         adjusted for inflation).</p>
     <!--Quote from listed source-->
-    <blockquote class="para1" cite="http://en.wikipedia.org/wiki/Apple_Inc."><strong>NOTE:</strong> On December 12, 1980,
-        Apple went public at $22 per share, generating more capital than any IPO since Ford Motor Company in 1956 and
-        instantly creating more millionaires (about 300) than any company in historya.
+<aside>
+    <blockquote class="para1" cite="http://en.wikipedia.org/wiki/Apple_Inc."><strong>NOTE:</strong> On December 12, 1980, Apple went public at $22 per share, generating more capital than any IPO since Ford Motor Company in 1956 and instantly creating more millionaires (about 300) than any company in historya.
     </blockquote>
-</div>
+</aside>
+
+<table>
+	<tr>
+		<th scope="col">Year</th>
+		<th scope="col">Stock Value</th>
+	<tr class="old">
+		<td scope="row">1980</td>
+		<td>$22.00</td>
+	</tr>
+	<tr class="new">
+		<td scope="row">2014</td>
+		<td>$115.44</td>
+	</tr>
+</table>
+
+<form action="index.html">
+
+<h2> Survey </h2>
+
+<p> how you found the site </p>
+	<select name="how you found the site">
+		<option value="volvo">google</option>
+		<option value="saab">bing</option>
+		<option value="fiat">aol</option>
+		<option value="audi">yahoo</option>
+	</select>
+<p> Gender </p>
+	<label for="male">M</label>
+		<input type="radio" name="sex" id="male" value="male"  required="required"><br>
+	<label for="female">F</label>
+		<input type="radio" name="sex" id="female" value="female"  required="required"><br>
+<p> do you have a </p>
+	<input type="checkbox" name="OS" value="mac"> I have a mac<br>
+	<input type="checkbox" name="OS" value="pc" checked="checked"> I have a pc<br>
+	
+
+<p> please enter your name </p>
+	First name: <input id="text" type="text" name="fname" placeholder="First name"><br>
+	Last name: <input id="text" type="text" name="lname" placeholder="Last name"><br>
+	Email address: <input id="text" type="Email" name="email" placeholder="example@example.com"><br>
+	
+<p> any additional comments </p>
+	<textarea name="comment" form="usrform" placeholder="Enter text here"></textarea>
+
+	
+	<input class="submit" type="submit" value="Submit">
+  
+</form>
+
+</section>
 <!--Next header-->
-<div class="right">
+<article>
     <h2 id="Today"> Today </h2>
     <!--Paragraph-->
     <p class="para"> Apple was established on April 1, 1976, by Steve Jobs, Steve Wozniak and Ronald Wayne to sell the
@@ -90,12 +141,14 @@
         adjusted for inflation).</p>
 
     <!--Quote from listed soruce-->
+    
+<aside>
     <blockquote class="para1" cite="http://en.wikipedia.org/wiki/Apple_Inc."><strong>NOTE:</strong> On November 24, 2013,
         Apple Inc. confirmed the purchase of PrimeSense, an Israeli 3D sensing company based in Tel Aviv.
     </blockquote>
-</div>
+</aside>
+
 <!--Images-->
-<div class="right">
     <h3> Images </h3>
 
     <figure>
@@ -117,14 +170,13 @@
         <figcaption> Figure 4: Picture of a Macbook Pro</figcaption>
     </figure>
 
+<aside>
     <p class="para1">
-        <strong>NOTE:</strong> Apple is developing a <span style="color:blue;"
-                                                           title="Weapon of mass destruction">WMD</span> called The
-        Apple
-    </p>
-</div>
+        <strong>NOTE:</strong> Apple is developing a <span style="color:blue;" title="Weapon of mass destruction">WMD</span> called The Apple </p>
+</aside>
+</article>
 <!--Reference links-->
-<div class="ref">
+<footer>
     <p>References:
 
     <p>
@@ -136,9 +188,9 @@
 
 
     </ul>
-</div>
+<footer>
 <!--Brings user back to the top of the page-->
-<a href="top">top of the page</a>
+	<a href="#top">top of the page</a>
 
 
 </body>
