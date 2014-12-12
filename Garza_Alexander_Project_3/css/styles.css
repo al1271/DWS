@@ -1,0 +1,157 @@
+/* body */
+header {
+    background: url("../Images/Apple.png"), center top, no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+body {
+
+    font-family: "Roboto", serif;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: url("../Images/repeat.png"), repeat;
+}
+
+/* navigation bar */
+nav {
+    list-style-type: none;
+    margin: 2%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.nav1 {
+    display: inline-block;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b7deed), color-stop(50%, #71ceef), color-stop(51%, #21b4e2), color-stop(100%, #b7deed));
+    box-shadow: 10px 10px 5px #009933;
+    width: 15%;
+    padding: 2%;
+    border-radius: 30px;
+    margin: 2%;
+    text-align: center;
+}
+
+
+/* Text */
+article, .para1 {
+
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 90%;
+    text-indent: 20%;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    background-color: #6699FF;
+    border-radius: 25px;
+    margin: 10%;
+
+}
+
+.para1, figcaption {
+
+    width: 100%;
+    padding: 2%;
+    border: 3px solid navy;
+    border-radius: 25px;
+    margin: 5%;
+
+}
+
+figcaption {
+
+    height: 5%;
+    width: 50%;
+    padding: 2%;
+    border: 3px solid navy;
+    border-radius: 5px;
+    margin: 10%;
+    box-shadow: 10px 10px 5px #009933;
+}
+
+/* headings */
+h1, h2, h3 {
+
+    box-shadow: 10px 10px 5px #009933;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #004060;
+    color: #ffffff;
+    padding: 1% 2%;
+    text-shadow: 2px 2px #ff0000;
+    font-style: italic;
+}
+
+/* lists */
+ul {
+
+    list-style-type: circle;
+    color: #004060;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+ol {
+
+    color: #004060;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+
+    color: blue;
+
+}
+
+/* visited link */
+a:visited {
+
+    opacity: 0.5;
+    background-color: hsla(170, 50%, 45%, 1);
+
+}
+
+/* mouse over link */
+a:hover {
+
+    color: red;
+
+}
+
+/* selected link */
+a:active {
+
+    color: yellow;
+
+}
+
+/* floats */
+
+.left {
+    float: left;
+    width: 33%;
+    padding: 3%;
+    margin: 5%;
+
+}
+
+.right {
+    float: right;
+    width: 33%;
+    padding: 3%;
+    margin: 5%;
+}
+
+footer {
+    clear: both;
+}	
